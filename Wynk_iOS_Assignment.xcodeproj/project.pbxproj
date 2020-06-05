@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35E46A61248A85DF00646EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E46A60248A85DF00646EC8 /* AppDelegate.swift */; };
+		35E46A63248A85DF00646EC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E46A62248A85DF00646EC8 /* SceneDelegate.swift */; };
+		35E46A65248A85DF00646EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E46A64248A85DF00646EC8 /* ViewController.swift */; };
+		35E46A68248A85DF00646EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E46A66248A85DF00646EC8 /* Main.storyboard */; };
+		35E46A6A248A85E100646EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E46A69248A85E100646EC8 /* Assets.xcassets */; };
+		35E46A6D248A85E100646EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E46A6B248A85E100646EC8 /* LaunchScreen.storyboard */; };
+		35E46A78248A85E100646EC8 /* Wynk_iOS_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E46A77248A85E100646EC8 /* Wynk_iOS_AssignmentTests.swift */; };
+		35E46A83248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E46A82248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35E46A74248A85E100646EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E46A55248A85DF00646EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E46A5C248A85DF00646EC8;
+			remoteInfo = Wynk_iOS_Assignment;
+		};
+		35E46A7F248A85E100646EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E46A55248A85DF00646EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E46A5C248A85DF00646EC8;
+			remoteInfo = Wynk_iOS_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35E46A5D248A85DF00646EC8 /* Wynk_iOS_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wynk_iOS_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E46A60248A85DF00646EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35E46A62248A85DF00646EC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35E46A64248A85DF00646EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35E46A67248A85DF00646EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35E46A69248A85E100646EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35E46A6C248A85E100646EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35E46A6E248A85E100646EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E46A73248A85E100646EC8 /* Wynk_iOS_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wynk_iOS_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E46A77248A85E100646EC8 /* Wynk_iOS_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wynk_iOS_AssignmentTests.swift; sourceTree = "<group>"; };
+		35E46A79248A85E100646EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E46A7E248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wynk_iOS_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E46A82248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wynk_iOS_AssignmentUITests.swift; sourceTree = "<group>"; };
+		35E46A84248A85E100646EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E46A5A248A85DF00646EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E46A70248A85E100646EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E46A7B248A85E100646EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E46A54248A85DF00646EC8 = {
+			isa = PBXGroup;
+			children = (
+				35E46A5F248A85DF00646EC8 /* Wynk_iOS_Assignment */,
+				35E46A76248A85E100646EC8 /* Wynk_iOS_AssignmentTests */,
+				35E46A81248A85E100646EC8 /* Wynk_iOS_AssignmentUITests */,
+				35E46A5E248A85DF00646EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35E46A5E248A85DF00646EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E46A5D248A85DF00646EC8 /* Wynk_iOS_Assignment.app */,
+				35E46A73248A85E100646EC8 /* Wynk_iOS_AssignmentTests.xctest */,
+				35E46A7E248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E46A5F248A85DF00646EC8 /* Wynk_iOS_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				35E46A60248A85DF00646EC8 /* AppDelegate.swift */,
+				35E46A62248A85DF00646EC8 /* SceneDelegate.swift */,
+				35E46A64248A85DF00646EC8 /* ViewController.swift */,
+				35E46A66248A85DF00646EC8 /* Main.storyboard */,
+				35E46A69248A85E100646EC8 /* Assets.xcassets */,
+				35E46A6B248A85E100646EC8 /* LaunchScreen.storyboard */,
+				35E46A6E248A85E100646EC8 /* Info.plist */,
+			);
+			path = Wynk_iOS_Assignment;
+			sourceTree = "<group>";
+		};
+		35E46A76248A85E100646EC8 /* Wynk_iOS_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				35E46A77248A85E100646EC8 /* Wynk_iOS_AssignmentTests.swift */,
+				35E46A79248A85E100646EC8 /* Info.plist */,
+			);
+			path = Wynk_iOS_AssignmentTests;
+			sourceTree = "<group>";
+		};
+		35E46A81248A85E100646EC8 /* Wynk_iOS_AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35E46A82248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.swift */,
+				35E46A84248A85E100646EC8 /* Info.plist */,
+			);
+			path = Wynk_iOS_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35E46A5C248A85DF00646EC8 /* Wynk_iOS_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E46A87248A85E100646EC8 /* Build configuration list for PBXNativeTarget "Wynk_iOS_Assignment" */;
+			buildPhases = (
+				35E46A59248A85DF00646EC8 /* Sources */,
+				35E46A5A248A85DF00646EC8 /* Frameworks */,
+				35E46A5B248A85DF00646EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wynk_iOS_Assignment;
+			productName = Wynk_iOS_Assignment;
+			productReference = 35E46A5D248A85DF00646EC8 /* Wynk_iOS_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35E46A72248A85E100646EC8 /* Wynk_iOS_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E46A8A248A85E100646EC8 /* Build configuration list for PBXNativeTarget "Wynk_iOS_AssignmentTests" */;
+			buildPhases = (
+				35E46A6F248A85E100646EC8 /* Sources */,
+				35E46A70248A85E100646EC8 /* Frameworks */,
+				35E46A71248A85E100646EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E46A75248A85E100646EC8 /* PBXTargetDependency */,
+			);
+			name = Wynk_iOS_AssignmentTests;
+			productName = Wynk_iOS_AssignmentTests;
+			productReference = 35E46A73248A85E100646EC8 /* Wynk_iOS_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35E46A7D248A85E100646EC8 /* Wynk_iOS_AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E46A8D248A85E100646EC8 /* Build configuration list for PBXNativeTarget "Wynk_iOS_AssignmentUITests" */;
+			buildPhases = (
+				35E46A7A248A85E100646EC8 /* Sources */,
+				35E46A7B248A85E100646EC8 /* Frameworks */,
+				35E46A7C248A85E100646EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E46A80248A85E100646EC8 /* PBXTargetDependency */,
+			);
+			name = Wynk_iOS_AssignmentUITests;
+			productName = Wynk_iOS_AssignmentUITests;
+			productReference = 35E46A7E248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E46A55248A85DF00646EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Xebia;
+				TargetAttributes = {
+					35E46A5C248A85DF00646EC8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					35E46A72248A85E100646EC8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 35E46A5C248A85DF00646EC8;
+					};
+					35E46A7D248A85E100646EC8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 35E46A5C248A85DF00646EC8;
+					};
+				};
+			};
+			buildConfigurationList = 35E46A58248A85DF00646EC8 /* Build configuration list for PBXProject "Wynk_iOS_Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35E46A54248A85DF00646EC8;
+			productRefGroup = 35E46A5E248A85DF00646EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35E46A5C248A85DF00646EC8 /* Wynk_iOS_Assignment */,
+				35E46A72248A85E100646EC8 /* Wynk_iOS_AssignmentTests */,
+				35E46A7D248A85E100646EC8 /* Wynk_iOS_AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35E46A5B248A85DF00646EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E46A6D248A85E100646EC8 /* LaunchScreen.storyboard in Resources */,
+				35E46A6A248A85E100646EC8 /* Assets.xcassets in Resources */,
+				35E46A68248A85DF00646EC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E46A71248A85E100646EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E46A7C248A85E100646EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E46A59248A85DF00646EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E46A65248A85DF00646EC8 /* ViewController.swift in Sources */,
+				35E46A61248A85DF00646EC8 /* AppDelegate.swift in Sources */,
+				35E46A63248A85DF00646EC8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E46A6F248A85E100646EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E46A78248A85E100646EC8 /* Wynk_iOS_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E46A7A248A85E100646EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E46A83248A85E100646EC8 /* Wynk_iOS_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35E46A75248A85E100646EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35E46A5C248A85DF00646EC8 /* Wynk_iOS_Assignment */;
+			targetProxy = 35E46A74248A85E100646EC8 /* PBXContainerItemProxy */;
+		};
+		35E46A80248A85E100646EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35E46A5C248A85DF00646EC8 /* Wynk_iOS_Assignment */;
+			targetProxy = 35E46A7F248A85E100646EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35E46A66248A85DF00646EC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E46A67248A85DF00646EC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35E46A6B248A85E100646EC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E46A6C248A85E100646EC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35E46A85248A85E100646EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35E46A86248A85E100646EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35E46A88248A85E100646EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4ARU27R93;
+				INFOPLIST_FILE = Wynk_iOS_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xebia.raj.Wynk-iOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35E46A89248A85E100646EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4ARU27R93;
+				INFOPLIST_FILE = Wynk_iOS_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xebia.raj.Wynk-iOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35E46A8B248A85E100646EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4ARU27R93;
+				INFOPLIST_FILE = Wynk_iOS_AssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xebia.raj.Wynk-iOS-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wynk_iOS_Assignment.app/Wynk_iOS_Assignment";
+			};
+			name = Debug;
+		};
+		35E46A8C248A85E100646EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4ARU27R93;
+				INFOPLIST_FILE = Wynk_iOS_AssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xebia.raj.Wynk-iOS-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wynk_iOS_Assignment.app/Wynk_iOS_Assignment";
+			};
+			name = Release;
+		};
+		35E46A8E248A85E100646EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4ARU27R93;
+				INFOPLIST_FILE = Wynk_iOS_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xebia.raj.Wynk-iOS-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wynk_iOS_Assignment;
+			};
+			name = Debug;
+		};
+		35E46A8F248A85E100646EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4ARU27R93;
+				INFOPLIST_FILE = Wynk_iOS_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xebia.raj.Wynk-iOS-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wynk_iOS_Assignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E46A58248A85DF00646EC8 /* Build configuration list for PBXProject "Wynk_iOS_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E46A85248A85E100646EC8 /* Debug */,
+				35E46A86248A85E100646EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E46A87248A85E100646EC8 /* Build configuration list for PBXNativeTarget "Wynk_iOS_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E46A88248A85E100646EC8 /* Debug */,
+				35E46A89248A85E100646EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E46A8A248A85E100646EC8 /* Build configuration list for PBXNativeTarget "Wynk_iOS_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E46A8B248A85E100646EC8 /* Debug */,
+				35E46A8C248A85E100646EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E46A8D248A85E100646EC8 /* Build configuration list for PBXNativeTarget "Wynk_iOS_AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E46A8E248A85E100646EC8 /* Debug */,
+				35E46A8F248A85E100646EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E46A55248A85DF00646EC8 /* Project object */;
+}
