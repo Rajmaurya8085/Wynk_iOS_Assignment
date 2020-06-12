@@ -15,6 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Dependencies {
+                    [ Service(.single) { _ in
+                       PhotoService() as PhotoServiceProtocol
+                       },
+                      Service(.single) { _ in
+                        PhotoListViewModel() as PhotoListProtocol
+                       },
+                      Service(.single) { _ in
+                       ImageLoaderService() as ImageLoaderServiceProtocol
+                       }]
+               }.build()
+        
         return true
     }
 
